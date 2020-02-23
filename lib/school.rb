@@ -1,3 +1,5 @@
+require `pry`
+
 class School
 
   def initialize(school_name)
@@ -28,3 +30,5 @@ class School
     end
   end
 end
+
+binding.pry
